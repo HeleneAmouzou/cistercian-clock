@@ -1,0 +1,45 @@
+:host {
+  display: block;
+}
+
+svg {
+  height: calc(100%);
+  width: calc(100%);
+}
+
+path {
+  stroke: #000000;
+  stroke-width: 1px;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+  transition: 200ms all linear;
+}
+
+#one {
+  stroke: #ff0000;
+}
+
+#two {
+  stroke: #ffff00;
+}
+
+#three {
+  stroke: #000fff;
+}
+
+#four {
+  stroke: #f0f;
+}
+
+#five {
+  stroke: #0f0;
+}
+
+path[state="no"] {
+  display: none;
+}
+
+#dizaine {
+  transform: scale(-1, 1);
+  transform-origin: center center;
+}

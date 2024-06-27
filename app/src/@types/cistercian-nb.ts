@@ -2,7 +2,7 @@ import { Dizaine } from "./dizaine";
 import { Unite } from "./unite";
 
 export type CistercianNbProps = {
-  number: number;
+  nb: number;
   unite: Unite;
   dizaine: Dizaine;
 };
